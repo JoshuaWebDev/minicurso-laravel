@@ -1,4 +1,1 @@
-<pre>
-<?php var_dump($usuarios) ?>
-</pre>
-
+<?php print_r($usuarios) ?>
