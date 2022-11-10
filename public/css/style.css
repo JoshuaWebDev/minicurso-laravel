@@ -43,12 +43,42 @@
 }
 
 .top-nav a {
+    padding: 5px 5px 10px 5px;
+    text-decoration: none;
+}
+
+.top-nav i {
     padding: 5px;
 }
 
 .content {
+    display: flex;
+    justify-content: space-between;
     min-height: 460px;
 }
+
+.main-content {
+    width: 800px;
+}
+
+.sidebar {
+    padding: 5px;
+    width: 400px;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resume {
+    color: rgb(49, 49, 146);
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+}
+
+#photo {}
 
 .rodape {
     background-color: rgb(49, 49, 146);

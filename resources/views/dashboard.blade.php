@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Mini Sigaa</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    <div class="main">
+    <div class="container shadow-lg p-0 my-0 rounded">
         <div class="top">
             <div class="top-bar">
                 <h1>UNIFAP - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</h1>
@@ -18,7 +19,7 @@
                 </div>
             </div>
             <div class="top-middle">
-                <h1>Alunos Cadastrados no Sistema</h1>
+                <h1>Josué Barros da Silva</h1>
                 <h2>DEPARTAMENTO DE CIÊNCIAS EXATAS E TECNOLÓGICAS - DCET(11.02.25.10)</h2>
             </div>
         </div>
@@ -32,7 +33,21 @@
             <a href="#outros"><i class="material-icons">link</i> Outros</a>
         </div>
         <div class="content">
-            <p>Conteúdo Principal</p>
+            <div class="main-content">
+                <div class="card m-2">Conteúdo Principal</div>
+            </div>
+            <div class="sidebar">
+                <div id="profile">
+                    <div id="resume">
+                        <p>Josué Barros da Silva</p>
+                        <p>Ciência da Computação</p>
+                        <p>Turma 2015</p>
+                    </div>
+                    <div id="photo">
+                        <img src="img/profile.jpg" title="Foto do Acadêmico" alt="Foto do Acadêmico" />
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="rodape">
             <footer>
@@ -40,5 +55,6 @@
             </footer>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
