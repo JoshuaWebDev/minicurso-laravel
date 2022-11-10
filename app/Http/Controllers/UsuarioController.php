@@ -26,9 +26,7 @@ class UsuarioController extends Controller
             ],
         ];
 
-        perfils = ['admin', 'vistante'];
-
-        return view('dashboard', compact('usuarios', 'perfils'));
+        return view('dashboard', ['usuarios' => $usuarios]);
 
         // return view('dashborad', [
         //     'usuarios' => $usuarios,
