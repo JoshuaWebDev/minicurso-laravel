@@ -1,6 +1,6 @@
 # Mini Curso de Introdução ao Desenvolvimento Web com Laravel
 
-Projeto desenvolvido especificamente para o minicurso de Laravel ministrado na Universidade Federal do Amapá no dia 7 de Novembro de 2022 durante o Esquenta SECOMP 2023.
+Projeto desenvolvido especificamente para o minicurso de Laravel ministrado na Universidade Federal do Amapá nos dias 8 e 10 de Novembro de 2022 durante o Esquenta SECOMP 2023.
 
 ## Objetivo do Curso
 

@@ -1,1 +1,1 @@
-@php dd($usuarios) @endphp
+<?php var_dump($usuarios) ?>
