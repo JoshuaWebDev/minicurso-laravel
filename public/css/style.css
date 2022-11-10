@@ -1,0 +1,59 @@
+* {margin: 0; padding: 0}
+
+.main {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.top-bar {
+    background-color: rgb(49, 49, 146);
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.top-bar h1 {
+    font-size: 12px;
+}
+
+.sair a {
+    color: #eee;
+}
+
+.top-middle {
+    background-color:rgb(168, 212, 219);
+    color: rgb(49, 49, 146);
+    padding: 5px 10px;
+    min-height: 60px;
+}
+
+.top-middle h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.top-middle h2 {
+    font-size: 12px;
+}
+
+.top-nav {
+    display: block;
+    background-color: rgb(233, 233, 185);
+}
+
+.top-nav a {
+    padding: 5px;
+}
+
+.content {
+    min-height: 460px;
+}
+
+.rodape {
+    background-color: rgb(49, 49, 146);
+    color:#eee;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-align: center;
+}
